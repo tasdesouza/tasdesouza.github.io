@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+html, body{
+    height: 100%;
+}
+.clear{
+    clear: both;
+}
+.container{
+    max-width: 2560px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* INITIAL WISHES AND QUOTES */
+header{
+    padding: 2% 2%;
+}
+header .tribute-message{
+    font-size: 35px;
+    font-weight: 600;
+}
+header .his-name{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 1%;
+    text-shadow: 5px 5px gray;
+}
+header .header-quote{
+    font-style: italic;
+    font-size: 25px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+/* HISTORIC AND JESUS PICTURE */
+
+.his-history{
+    margin-top: 1.75%;
+    float: left;
+    font-size: 18px;
+    width: 50%;
+    text-align: justify;
+}
+.his-history p{
+    margin: 0.5% 2%;
+    width: 50%;
+    float: right;
+    text-align: right;
+    border-bottom: 2px solid gray;
+
+    font-weight: 300;
+    font-style: oblique;
+}
+.his-picture{
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding-right: 12%;
+}
+.his-picture img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+}
+
+/* FOOTER QUOTES AND FINAL WISHES */
+footer .hope-message{
+    font-size: 35px;
+    font-weight: 600;
+}
+footer .last-quote{
+    font-style: italic;
+    font-size: 25px;
+    font-family: 'Akaya Telivigala', cursive;
+}
